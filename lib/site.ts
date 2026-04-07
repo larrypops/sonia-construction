@@ -11,7 +11,7 @@ export const siteConfig = {
   country: "Cameroun",
   baseUrl: "https://www.sonia-construction.cm",
   description:
-    "Sonia Construction est une entreprise basée à Douala, spécialisée dans la fabrication de chapiteaux et tentes, la vente de rouleaux de bâche et la location de chapiteaux pour événements et besoins professionnels au Cameroun.",
+    "Sonia Construction vous accompagne à Douala pour la fabrication, la vente et la location de chapiteaux, tentes et bâches avec un contact rapide par appel ou WhatsApp.",
 };
 
 export const navigationLinks = [
@@ -28,35 +28,35 @@ export const galleryImages = [
     alt: "Chapiteau installé par Sonia Construction à Douala",
     title: "Installation de chapiteau à Douala",
     description:
-      "Montage propre et stable pour cérémonies, réceptions et rassemblements professionnels.",
+      "Un rendu propre, stable et rassurant pour vos cérémonies, réceptions et événements.",
   },
   {
     src: "/images/chapiteaux-2.JPG",
     alt: "Tente événementielle réalisée par Sonia Construction",
     title: "Tente événementielle au Cameroun",
     description:
-      "Solutions esthétiques pour abriter vos invités et créer un espace accueillant.",
+      "Une solution esthétique pour protéger vos invités et valoriser votre événement.",
   },
   {
     src: "/images/chapiteaux-3.JPG",
     alt: "Installation de chapiteau pour événement à Douala",
     title: "Structure adaptée à vos besoins",
     description:
-      "Configuration flexible pour mariages, réunions, lancements et manifestations diverses.",
+      "Une configuration flexible pour mariages, réunions, lancements et autres besoins ponctuels.",
   },
   {
     src: "/images/chapiteaux-4.JPG",
     alt: "Location de chapiteau à Douala",
     title: "Location rapide de chapiteaux",
     description:
-      "Disponibilité rapide pour vos besoins de location à Douala et dans d'autres villes du Cameroun.",
+      "Une disponibilité rapide pour vos besoins de location à Douala et selon faisabilité dans d'autres villes.",
   },
   {
     src: "/images/chapiteaux-5.JPG",
     alt: "Fabrication de chapiteau au Cameroun",
     title: "Chapiteaux solides et fiables",
     description:
-      "Matériaux sélectionnés pour offrir protection, présence visuelle et tranquillité d'esprit.",
+      "Des matériaux choisis pour offrir protection, bonne tenue visuelle et tranquillité d'esprit.",
   },
 ];
 
@@ -64,21 +64,21 @@ export const serviceCards = [
   {
     title: "Fabrication de chapiteaux",
     description:
-      "Nous réalisons des chapiteaux et tentes adaptés à différents besoins avec des structures solides, bien conçues et visuellement propres.",
+      "Des chapiteaux conçus pour durer, bien finis et adaptés à votre besoin.",
     href: "/services",
     image: galleryImages[0],
   },
   {
     title: "Vente de rouleaux de bâche",
     description:
-      "Nous proposons des rouleaux de bâche pour la couverture, la protection et l'aménagement, avec des solutions fiables disponibles à Douala.",
+      "Des rouleaux de bâche fiables pour protéger, couvrir et aménager efficacement.",
     href: "/services",
     image: galleryImages[1],
   },
   {
     title: "Location de chapiteaux",
     description:
-      "Nous mettons à disposition des chapiteaux en location pour cérémonies, réceptions, événements et autres besoins ponctuels à Douala.",
+      "Une solution simple et rapide pour vos cérémonies, réceptions et événements à Douala.",
     href: "/contact",
     image: galleryImages[3],
   },

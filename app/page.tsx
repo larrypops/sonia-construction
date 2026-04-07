@@ -17,29 +17,29 @@ export const metadata = buildMetadata({
 
 const features = [
   {
-    title: "Savoir-faire local",
+    title: "Réponse rapide",
     description:
-      "Nous connaissons les besoins des clients à Douala et au Cameroun, et nous proposons des solutions adaptées aux réalités locales.",
+      "Vous obtenez rapidement une orientation claire par téléphone ou sur WhatsApp.",
   },
   {
-    title: "Structures solides et fiables",
+    title: "Rendu propre",
     description:
-      "Nous mettons l’accent sur la robustesse, la durabilité et la bonne présentation de chaque installation.",
+      "Nous mettons l’accent sur une installation solide, stable et bien présentée.",
   },
   {
-    title: "Service professionnel",
+    title: "Solutions adaptées",
     description:
-      "Nous travaillons avec sérieux, réactivité et engagement pour offrir une expérience rassurante à nos clients.",
+      "Fabrication, vente ou location: nous vous proposons la formule la plus utile selon votre besoin.",
   },
   {
-    title: "Solutions adaptées à plusieurs usages",
+    title: "Entreprise locale",
     description:
-      "Nos chapiteaux, tentes et bâches peuvent répondre à des besoins événementiels, commerciaux, professionnels ou pratiques.",
+      "Basés à Douala, nous comprenons mieux les contraintes du terrain et les attentes de nos clients.",
   },
   {
-    title: "Accompagnement rapide",
+    title: "Confiance visuelle",
     description:
-      "Nous restons disponibles pour vous orienter, vous renseigner et vous proposer la solution la plus adaptée à votre besoin.",
+      "Nos images réelles vous montrent le niveau de finition attendu avant même de nous contacter.",
   },
 ];
 
@@ -52,17 +52,14 @@ export default function HomePage() {
             <span className="eyebrow">Douala, Cameroun</span>
             <h1 className="hero-title">Des solutions professionnelles de chapiteaux, tentes et bâches à Douala</h1>
             <p className="lead">
-              Sonia Construction accompagne particuliers, entreprises, organisateurs
-              d’événements et professionnels avec des solutions fiables de
-              fabrication, de vente et de location de chapiteaux à Douala et au
-              Cameroun.
+              Besoin d’un chapiteau, d’une tente ou de rouleaux de bâche à Douala ?
+              Sonia Construction vous propose une réponse rapide, un accompagnement
+              sérieux et des installations propres.
             </p>
             <p className="section-copy">
-              Vous recherchez une entreprise sérieuse pour la fabrication de
-              chapiteaux, la vente de rouleaux de bâche ou la location de
-              chapiteaux à Douala ? Sonia Construction met à votre disposition son
-              savoir-faire pour répondre à vos besoins avec des installations
-              solides, soignées et adaptées à différents usages.
+              Fabrication sur mesure, location pour événements ou vente de bâche:
+              nous vous aidons à trouver la solution adaptée à votre besoin, à votre
+              délai et à votre budget.
             </p>
             <div className="button-row">
               <Link href="/contact" className="btn btn-primary">
@@ -107,8 +104,8 @@ export default function HomePage() {
             <div className="hero-badge panel">
               <strong>Fabrication, vente et location de chapiteaux à Douala</strong>
               <p>
-                Contactez-nous par appel ou sur WhatsApp pour discuter de votre
-                besoin, demander un devis rapide et obtenir une solution adaptée.
+                Décrivez votre besoin en quelques messages et obtenez une réponse
+                rapide avec la solution la plus adaptée.
               </p>
             </div>
           </AnimatedSection>
@@ -123,16 +120,14 @@ export default function HomePage() {
               Votre partenaire local pour les chapiteaux et bâches à Douala
             </h2>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Basée à Douala, Sonia Construction propose des services
-              professionnels dans le domaine des chapiteaux, tentes et bâches. Nous
-              intervenons pour différents besoins, qu’il s’agisse de fabrication sur
-              mesure, de location pour événements ou de vente de rouleaux de bâche.
+              Nous accompagnons particuliers, entreprises et organisateurs
+              d’événements avec des solutions concrètes en chapiteaux, tentes et
+              bâches à Douala.
             </p>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Nous mettons l’accent sur la qualité, la solidité des structures, la
-              bonne finition et un accompagnement sérieux. Notre entreprise
-              s’adresse aux particuliers, entreprises, commerçants, organisateurs
-              d’événements, associations et structures locales.
+              Notre priorité est simple: vous proposer une structure fiable, bien
+              présentée et facile à commander, avec un contact rapide par appel ou
+              WhatsApp.
             </p>
           </AnimatedSection>
         </div>
@@ -145,6 +140,9 @@ export default function HomePage() {
             <h2 className="section-title" style={{ marginTop: "1rem" }}>
               Nos services
             </h2>
+            <p className="section-copy" style={{ marginTop: "1rem" }}>
+              Trois solutions claires pour répondre rapidement à votre besoin.
+            </p>
           </AnimatedSection>
           <div className="card-grid grid-3" style={{ marginTop: "2rem" }}>
             {serviceCards.map((service, index) => (
@@ -164,9 +162,8 @@ export default function HomePage() {
               Pourquoi choisir Sonia Construction à Douala ?
             </h2>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Choisir Sonia Construction, c’est faire appel à une entreprise locale
-              qui comprend les besoins du terrain et qui met la qualité du service
-              au centre de son travail.
+              Nous allons à l’essentiel: une réponse rapide, un service sérieux et
+              un résultat propre pour vous aider à avancer sans perdre de temps.
             </p>
             <div className="button-row" style={{ marginTop: "1.5rem" }}>
               <CallButton label="Appeler maintenant" />
@@ -196,9 +193,9 @@ export default function HomePage() {
               Quelques-unes de nos réalisations
             </h2>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Découvrez un aperçu du travail réalisé par Sonia Construction à
-              Douala. Nos réalisations reflètent notre engagement pour des
-              installations propres, solides et adaptées aux besoins du client.
+              Voici un aperçu concret de notre travail. Ces réalisations montrent le
+              niveau de propreté, de stabilité et de présentation que vous pouvez
+              attendre.
             </p>
           </AnimatedSection>
           <div style={{ marginTop: "2rem" }}>
@@ -222,12 +219,10 @@ export default function HomePage() {
               Chapiteaux, tentes et bâches à Douala
             </h2>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Si vous recherchez une entreprise spécialisée dans la fabrication de
-              chapiteaux à Douala, la location de chapiteaux pour événements ou la
-              vente de rouleaux de bâche au Cameroun, Sonia Construction est à votre
-              service. Notre présence à Douala nous permet d’accompagner
-              efficacement les particuliers et professionnels qui souhaitent une
-              solution locale, fiable et sérieuse.
+              Si vous recherchez une entreprise de chapiteaux à Douala pour une
+              fabrication, une location ou un besoin en bâche, Sonia Construction
+              vous accompagne avec une solution locale, fiable et rapide à mettre en
+              place.
             </p>
           </AnimatedSection>
         </div>
@@ -235,7 +230,7 @@ export default function HomePage() {
 
       <CTA
         title="Besoin d’un chapiteau, d’une bâche ou d’une installation adaptée ?"
-        description="Que vous ayez besoin d’une fabrication sur mesure, d’une location de chapiteaux ou de rouleaux de bâche, Sonia Construction est disponible pour vous accompagner. Contactez-nous dès maintenant pour obtenir des informations, discuter de votre besoin ou demander un devis rapide."
+        description="Expliquez-nous votre besoin et nous vous orienterons rapidement vers la bonne solution, par appel ou sur WhatsApp."
       />
     </>
   );

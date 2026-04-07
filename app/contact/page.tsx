@@ -22,14 +22,13 @@ export default function ContactPage() {
               Contactez Sonia Construction
             </h1>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Besoin d’un devis, d’une information ou d’un accompagnement pour votre
-              projet ? Sonia Construction est disponible pour répondre à vos besoins
-              en fabrication de chapiteaux, vente de rouleaux de bâche et location
-              de chapiteaux à Douala.
+              Vous avez besoin d’un devis, d’une disponibilité ou d’un conseil
+              rapide ? Contactez-nous pour votre besoin en chapiteaux, tentes ou
+              bâches à Douala.
             </p>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Nous vous répondons rapidement pour vous orienter vers la solution la
-              plus adaptée.
+              Le plus simple reste WhatsApp ou l’appel direct pour recevoir une
+              réponse rapide.
             </p>
           </AnimatedSection>
         </div>
@@ -44,8 +43,8 @@ export default function ContactPage() {
                 Informations de contact
               </h2>
               <p className="section-copy" style={{ marginBottom: "1rem" }}>
-                Pour toute demande d’information, de disponibilité ou de devis, vous
-                pouvez nous appeler directement ou nous écrire sur WhatsApp.
+                Appelez-nous ou écrivez-nous sur WhatsApp pour présenter rapidement
+                votre besoin et obtenir une réponse claire.
               </p>
               <ul className="details-list">
                 <li>
@@ -73,10 +72,8 @@ export default function ContactPage() {
               <span className="eyebrow">Formulaire</span>
               <h3 style={{ marginTop: "1rem" }}>Présentez votre besoin</h3>
               <p>
-                Remplissez le formulaire ci-dessous pour nous présenter votre besoin.
-                Que ce soit pour la fabrication d’un chapiteau, la location d’une
-                structure ou l’achat de rouleaux de bâche à Douala, nous reviendrons
-                vers vous dans les meilleurs délais.
+                Laissez-nous vos informations et décrivez votre besoin. Nous pourrons
+                ensuite vous recontacter avec une réponse adaptée.
               </p>
               <form className="form-grid">
                 <div className="field">
@@ -131,9 +128,9 @@ export default function ContactPage() {
                 Contact rapide par WhatsApp
               </h2>
               <p>
-                Pour une réponse plus rapide, vous pouvez nous écrire directement sur
-                WhatsApp. C’est le moyen le plus simple pour poser votre question,
-                demander un devis ou envoyer votre besoin.
+                Pour aller plus vite, envoyez directement votre besoin sur WhatsApp.
+                C’est le moyen le plus simple pour demander un devis ou une
+                disponibilité.
               </p>
               <div className="button-row" style={{ marginTop: "1.25rem" }}>
                 <WhatsAppButton label="Écrire sur WhatsApp" />
@@ -147,8 +144,8 @@ export default function ContactPage() {
                 Appelez-nous directement
               </h2>
               <p>
-                Vous préférez échanger par téléphone ? Contactez Sonia Construction
-                au +237 6 77 27 91 33 pour parler directement de votre besoin.
+                Vous préférez parler directement ? Appelez-nous pour expliquer votre
+                besoin et obtenir une orientation rapide.
               </p>
               <div className="button-row" style={{ marginTop: "1.25rem" }}>
                 <CallButton label="Appeler maintenant" />
@@ -160,7 +157,7 @@ export default function ContactPage() {
 
       <CTA
         title="Parlons de votre projet"
-        description="Sonia Construction est à votre service à Douala pour vos besoins en chapiteaux, tentes et bâches. Contactez-nous dès maintenant pour une réponse rapide."
+        description="Un appel ou un message WhatsApp suffit pour lancer votre demande et recevoir une réponse rapide."
       />
     </>
   );

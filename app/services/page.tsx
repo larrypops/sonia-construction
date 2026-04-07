@@ -13,7 +13,7 @@ export const metadata = buildMetadata({
 const serviceDetails = [
   {
     title: "Fabrication de chapiteaux et tentes à Douala",
-    text: "Nous assurons la fabrication de chapiteaux et de tentes pour différents besoins. Nos solutions peuvent convenir aux événements, cérémonies, activités commerciales, installations temporaires ou usages particuliers. La fabrication de chapiteaux demande rigueur, précision et sens du détail.",
+    text: "Vous avez besoin d’une structure sur mesure, solide et bien présentée ? Nous fabriquons des chapiteaux et tentes adaptés à plusieurs usages avec un vrai souci de finition.",
     points: [
       "Structures adaptées à plusieurs usages",
       "Finition soignée",
@@ -24,7 +24,7 @@ const serviceDetails = [
   },
   {
     title: "Vente de rouleaux de bâche à Douala",
-    text: "Sonia Construction propose également la vente de rouleaux de bâche pour différents usages pratiques et professionnels. Les bâches sont utiles pour la couverture, la protection, l’aménagement ou certains besoins spécifiques sur chantier, dans le commerce ou dans des contextes événementiels.",
+    text: "Nous mettons à votre disposition des rouleaux de bâche pour couvrir, protéger ou aménager efficacement vos espaces selon votre besoin.",
     points: [
       "Solution de protection et de couverture",
       "Usage pratique et professionnel",
@@ -35,7 +35,7 @@ const serviceDetails = [
   },
   {
     title: "Location de chapiteaux à Douala",
-    text: "Nous proposons la location de chapiteaux à Douala pour les cérémonies, événements, rencontres, activités professionnelles et besoins ponctuels. Cette solution permet aux clients de bénéficier d’une installation adaptée sans avoir à investir dans un achat.",
+    text: "Pour un besoin ponctuel, la location vous permet d’obtenir une installation prête à l’emploi sans passer par un achat. C’est une solution pratique pour cérémonies, événements et activités professionnelles.",
     points: [
       "Pour événements et cérémonies",
       "Pour besoins ponctuels",
@@ -89,12 +89,9 @@ export default function ServicesPage() {
               Nos services en chapiteaux, tentes et bâches à Douala
             </h1>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Sonia Construction propose à Douala des services professionnels autour
-              de la fabrication de chapiteaux, de la vente de rouleaux de bâche et
-              de la location de chapiteaux. Nous répondons aux besoins des
-              particuliers, entreprises, organisateurs d’événements et
-              professionnels qui recherchent des solutions sérieuses, pratiques et
-              bien réalisées au Cameroun.
+              Choisissez le service qui correspond à votre besoin: fabrication,
+              vente de bâche ou location de chapiteaux. Notre objectif est de vous
+              apporter une solution claire, pratique et rapide à Douala.
             </p>
           </AnimatedSection>
         </div>
@@ -117,7 +114,7 @@ export default function ServicesPage() {
           {serviceDetails.map((service, index) => (
             <AnimatedSection key={service.title} delay={index * 0.08}>
               <article className="info-card panel">
-                <span className="eyebrow">Service 0{index + 1}</span>
+                <span className="eyebrow">Notre solution</span>
                 <h2 style={{ margin: "1rem 0 0.8rem", fontSize: "1.8rem" }}>{service.title}</h2>
                 <p>{service.text}</p>
                 <ul className="details-list" style={{ marginTop: "1.25rem" }}>
@@ -176,7 +173,7 @@ export default function ServicesPage() {
 
       <CTA
         title="Parlez-nous de votre besoin"
-        description="Vous avez besoin d’un chapiteau, d’une bâche ou d’une solution adaptée à votre projet ? Contactez Sonia Construction à Douala pour obtenir une réponse rapide et un accompagnement sérieux."
+        description="Dites-nous ce qu’il vous faut et nous vous répondrons rapidement avec la solution la plus adaptée."
       />
     </>
   );
