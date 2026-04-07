@@ -17,6 +17,9 @@ export default function Header() {
             <div className="brand-logo">
               <Image src="/images/logo.JPG" alt="Logo Sonia Construction" fill sizes="56px" />
             </div>
+            <div className="brand-copy">
+              <strong>Sonia Construction</strong>
+            </div>
           </Link>
 
           <nav className="desktop-nav" aria-label="Navigation principale">
@@ -35,7 +38,11 @@ export default function Header() {
               aria-expanded={isOpen}
               aria-label="Ouvrir le menu"
             >
-              {isOpen ? "Fermer" : "Menu"}
+              <span className="menu-toggle-icon" aria-hidden="true">
+                <span />
+                <span />
+                <span />
+              </span>
             </button>
           </div>
         </div>

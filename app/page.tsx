@@ -56,17 +56,9 @@ export default function HomePage() {
               Sonia Construction vous propose une réponse rapide, un accompagnement
               sérieux et des installations propres.
             </p>
-            <p className="section-copy">
-              Fabrication sur mesure, location pour événements ou vente de bâche:
-              nous vous aidons à trouver la solution adaptée à votre besoin, à votre
-              délai et à votre budget.
-            </p>
             <div className="button-row">
               <Link href="/contact" className="btn btn-primary">
                 Demander un devis
-              </Link>
-              <Link href="/realisations" className="btn btn-secondary">
-                Voir nos réalisations
               </Link>
               <WhatsAppButton label="Nous écrire sur WhatsApp" />
             </div>
@@ -75,20 +67,6 @@ export default function HomePage() {
               <li>Location événementielle</li>
               <li>Rouleaux de bâche de qualité</li>
             </ul>
-            <div className="metric-strip">
-              <div className="metric">
-                <strong>Douala</strong>
-                <span>Un partenaire local pour vos besoins en chapiteaux et bâches</span>
-              </div>
-              <div className="metric">
-                <strong>WhatsApp</strong>
-                <span>Le canal prioritaire pour obtenir une réponse rapide</span>
-              </div>
-              <div className="metric">
-                <strong>Images réelles</strong>
-                <span>Des réalisations concrètes pour inspirer confiance</span>
-              </div>
-            </div>
           </AnimatedSection>
 
           <AnimatedSection className="hero-visual" delay={0.12}>
