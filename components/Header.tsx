@@ -17,10 +17,6 @@ export default function Header() {
             <div className="brand-logo">
               <Image src="/images/logo.JPG" alt="Logo Sonia Construction" fill sizes="56px" />
             </div>
-            <div className="brand-copy">
-              <strong>SONIA CONSTRUCTION</strong>
-              <span>Chapiteaux, tentes et bâches à Douala</span>
-            </div>
           </Link>
 
           <nav className="desktop-nav" aria-label="Navigation principale">
