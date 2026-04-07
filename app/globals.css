@@ -33,6 +33,41 @@ body {
     linear-gradient(180deg, #fbf8f1 0%, #f3f5f8 44%, #eef3f7 100%);
   color: var(--text);
   font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: auto;
+  pointer-events: none;
+  z-index: -2;
+  filter: blur(18px);
+  opacity: 0.9;
+}
+
+body::before {
+  top: -10rem;
+  left: -8rem;
+  width: 32rem;
+  height: 32rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(229, 123, 36, 0.24) 0%, rgba(229, 123, 36, 0.08) 42%, transparent 72%);
+  animation: ambientFloatOne 18s ease-in-out infinite alternate;
+}
+
+body::after {
+  right: -10rem;
+  top: 18%;
+  width: 28rem;
+  height: 28rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(17, 59, 99, 0.2) 0%, rgba(17, 59, 99, 0.08) 45%, transparent 72%);
+  animation: ambientFloatTwo 24s ease-in-out infinite alternate;
 }
 
 a {
@@ -53,6 +88,40 @@ textarea {
 
 .page-shell {
   overflow: clip;
+  position: relative;
+  isolation: isolate;
+}
+
+.page-shell::before,
+.page-shell::after {
+  content: "";
+  position: fixed;
+  inset: auto;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.75;
+}
+
+.page-shell::before {
+  left: 12%;
+  bottom: 8%;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.46) 0%, rgba(255, 255, 255, 0.12) 42%, transparent 72%);
+  animation: ambientFloatThree 22s ease-in-out infinite alternate;
+}
+
+.page-shell::after {
+  right: 8%;
+  bottom: -6rem;
+  width: 24rem;
+  height: 24rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(229, 123, 36, 0.12) 0%, rgba(17, 59, 99, 0.08) 45%, transparent 72%);
+  animation: ambientFloatFour 28s ease-in-out infinite alternate;
 }
 
 .container {
@@ -883,6 +952,42 @@ textarea {
   }
 }
 
+@keyframes ambientFloatOne {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(5rem, 2rem, 0) scale(1.08);
+  }
+}
+
+@keyframes ambientFloatTwo {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(-4rem, 3rem, 0) scale(1.1);
+  }
+}
+
+@keyframes ambientFloatThree {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(3rem, -3rem, 0) scale(1.05);
+  }
+}
+
+@keyframes ambientFloatFour {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(-3rem, -2rem, 0) scale(1.08);
+  }
+}
+
 @media (max-width: 1100px) {
   .hero-layout,
   .split-layout,
@@ -1143,6 +1248,39 @@ textarea {
   .floating-whatsapp svg {
     width: 26px;
     height: 26px;
+  }
+
+  body::before {
+    width: 20rem;
+    height: 20rem;
+    left: -7rem;
+    top: -5rem;
+  }
+
+  body::after {
+    width: 18rem;
+    height: 18rem;
+    right: -7rem;
+    top: 24%;
+  }
+
+  .page-shell::before,
+  .page-shell::after {
+    opacity: 0.5;
+  }
+
+  .page-shell::before {
+    width: 14rem;
+    height: 14rem;
+    left: -2rem;
+    bottom: 15%;
+  }
+
+  .page-shell::after {
+    width: 14rem;
+    height: 14rem;
+    right: -3rem;
+    bottom: 2%;
   }
 
   .gallery-card,
