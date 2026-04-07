@@ -202,7 +202,7 @@ export default function HomePage() {
             </p>
           </AnimatedSection>
           <div style={{ marginTop: "2rem" }}>
-            <Gallery items={galleryImages.slice(0, 3)} />
+            <Gallery items={galleryImages.slice(0, 3)} variant="showcase" />
           </div>
           <AnimatedSection delay={0.18}>
             <div className="button-row" style={{ marginTop: "1.8rem" }}>

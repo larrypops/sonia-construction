@@ -10,14 +10,19 @@ type GalleryItem = {
 
 type GalleryProps = {
   items: GalleryItem[];
+  variant?: "mosaic" | "showcase";
 };
 
-export default function Gallery({ items }: GalleryProps) {
+export default function Gallery({ items, variant = "mosaic" }: GalleryProps) {
   return (
-    <div className="gallery-grid">
+    <div className={`gallery-grid ${variant === "showcase" ? "gallery-grid--showcase" : ""}`}>
       {items.map((item, index) => (
         <AnimatedSection key={item.src} delay={index * 0.08}>
-          <article className={`gallery-card gallery-card--${(index % 5) + 1} panel`}>
+          <article
+            className={`gallery-card ${
+              variant === "showcase" ? "gallery-card--showcase" : `gallery-card--${(index % 5) + 1}`
+            } panel`}
+          >
             <div className="gallery-image">
               <Image
                 src={item.src}
