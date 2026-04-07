@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { navigationLinks } from "@/lib/site";
 
 export default function Header() {
@@ -33,10 +32,6 @@ export default function Header() {
           </nav>
 
           <div className="header-actions">
-            <Link href="/contact" className="btn btn-primary desktop-only">
-              Demander un devis
-            </Link>
-            <WhatsAppButton className="btn btn-whatsapp desktop-only" label="WhatsApp" />
             <button
               type="button"
               className="menu-toggle"
@@ -64,10 +59,6 @@ export default function Header() {
                     {link.label}
                   </Link>
                 ))}
-                <Link href="/contact" className="btn btn-primary" onClick={() => setIsOpen(false)}>
-                  Demander un devis
-                </Link>
-                <WhatsAppButton label="Écrire sur WhatsApp" />
               </nav>
             </motion.div>
           ) : null}
