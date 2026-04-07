@@ -99,14 +99,15 @@ export default function HomePage() {
               Votre partenaire local pour les chapiteaux et bâches à Douala
             </h2>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Nous accompagnons particuliers, entreprises et organisateurs
-              d’événements avec des solutions concrètes en chapiteaux, tentes et
-              bâches à Douala.
+              Sonia Construction accompagne les particuliers, les entreprises et les
+              organisateurs d’événements à Douala avec des solutions fiables en
+              chapiteaux, tentes et bâches, pensées pour répondre rapidement aux
+              besoins du terrain.
             </p>
             <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Notre priorité est simple: vous proposer une structure fiable, bien
-              présentée et facile à commander, avec un contact rapide par appel ou
-              WhatsApp.
+              Notre objectif est de vous proposer une solution à la fois solide,
+              bien présentée et simple à mettre en place, avec un accompagnement
+              réactif par appel ou sur WhatsApp pour faciliter votre commande.
             </p>
           </AnimatedSection>
         </div>
