@@ -40,7 +40,7 @@ export default function RealisationsPage() {
               d’installations que nous proposons.
             </p>
           </AnimatedSection>
-          <Gallery items={galleryImages} />
+          <Gallery items={galleryImages} variant="showcase" />
         </div>
       </section>
 
