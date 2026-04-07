@@ -58,9 +58,9 @@ export default function HomePage() {
             </p>
             <div className="button-row">
               <Link href="/contact" className="btn btn-primary">
-                Demander un devis
+                Devis
               </Link>
-              <WhatsAppButton label="Nous écrire sur WhatsApp" />
+              <WhatsAppButton label="WhatsApp" />
             </div>
             <ul className="pill-list">
               <li>Fabrication sur mesure</li>
@@ -144,8 +144,8 @@ export default function HomePage() {
               un résultat propre pour vous aider à avancer sans perdre de temps.
             </p>
             <div className="button-row" style={{ marginTop: "1.5rem" }}>
-              <CallButton label="Appeler maintenant" />
-              <WhatsAppButton label="Obtenir une réponse rapide" />
+              <CallButton label="Appeler" />
+              <WhatsAppButton label="WhatsApp" />
             </div>
           </AnimatedSection>
 
@@ -182,7 +182,7 @@ export default function HomePage() {
           <AnimatedSection delay={0.18}>
             <div className="button-row" style={{ marginTop: "1.8rem" }}>
               <Link href="/realisations" className="btn btn-secondary">
-                Voir nos réalisations
+                Voir plus
               </Link>
             </div>
           </AnimatedSection>

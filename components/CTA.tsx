@@ -19,8 +19,8 @@ export default function CTA({ title, description }: CTAProps) {
           </div>
           <p>{description}</p>
           <div className="button-row">
-            <WhatsAppButton label="Obtenir une réponse rapide" />
-            <CallButton label="Appeler maintenant" />
+            <WhatsAppButton label="WhatsApp" />
+            <CallButton label="Appeler" />
           </div>
         </div>
       </div>

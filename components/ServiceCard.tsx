@@ -28,7 +28,7 @@ export default function ServiceCard({
       </div>
       <div className="service-actions">
         <Link href={href} className="btn btn-secondary">
-          Découvrir nos services
+          Voir plus
         </Link>
       </div>
     </article>
