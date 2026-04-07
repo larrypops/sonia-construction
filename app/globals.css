@@ -276,6 +276,10 @@ textarea {
   max-width: 58ch;
 }
 
+.hero-copy .button-row {
+  margin-top: 0.2rem;
+}
+
 .metric-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -305,6 +309,61 @@ textarea {
   display: block;
   font-size: 1.5rem;
   margin-bottom: 0.3rem;
+}
+
+.intro-band {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 1.6rem;
+  padding: 1.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at top right, rgba(229, 123, 36, 0.12), transparent 26%),
+    linear-gradient(135deg, rgba(17, 59, 99, 0.03), transparent 40%);
+  pointer-events: none;
+}
+
+.intro-band-copy,
+.intro-band-aside {
+  position: relative;
+  z-index: 1;
+}
+
+.intro-band-copy {
+  padding: 0.4rem;
+}
+
+.intro-band-aside {
+  display: grid;
+  gap: 1rem;
+  align-content: center;
+}
+
+.intro-highlight {
+  padding: 1.2rem 1.15rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(17, 59, 99, 0.08);
+  box-shadow: 0 16px 35px rgba(25, 37, 52, 0.06);
+}
+
+.intro-highlight strong {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 1.02rem;
+}
+
+.intro-highlight p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
 }
 
 .service-card,
@@ -833,6 +892,10 @@ textarea {
     grid-template-columns: 1fr;
   }
 
+  .intro-band {
+    grid-template-columns: 1fr;
+  }
+
   .grid-3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -961,7 +1024,8 @@ textarea {
   .info-card,
   .form-shell,
   .cta-banner,
-  .footer-wrap {
+  .footer-wrap,
+  .intro-band {
     border-radius: 24px;
   }
 
@@ -978,6 +1042,10 @@ textarea {
 
   .cta-banner {
     padding: 1.6rem;
+  }
+
+  .intro-band {
+    padding: 1.2rem;
   }
 
   .contact-grid {

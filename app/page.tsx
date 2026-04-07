@@ -93,23 +93,40 @@ export default function HomePage() {
 
       <section className="section">
         <div className="container">
-          <AnimatedSection>
-            <span className="eyebrow">Présentation</span>
-            <h2 className="section-title" style={{ marginTop: "1rem" }}>
-              Votre partenaire local pour les chapiteaux et bâches à Douala
-            </h2>
-            <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Sonia Construction accompagne les particuliers, les entreprises et les
-              organisateurs d’événements à Douala avec des solutions fiables en
-              chapiteaux, tentes et bâches, pensées pour répondre rapidement aux
-              besoins du terrain.
-            </p>
-            <p className="section-copy" style={{ marginTop: "1rem" }}>
-              Notre objectif est de vous proposer une solution à la fois solide,
-              bien présentée et simple à mettre en place, avec un accompagnement
-              réactif par appel ou sur WhatsApp pour faciliter votre commande.
-            </p>
-          </AnimatedSection>
+          <div className="intro-band panel">
+            <AnimatedSection className="intro-band-copy">
+              <span className="eyebrow">Présentation</span>
+              <h2 className="section-title" style={{ marginTop: "1rem" }}>
+                Votre partenaire local pour les chapiteaux et bâches à Douala
+              </h2>
+              <p className="section-copy" style={{ marginTop: "1rem" }}>
+                Sonia Construction accompagne les particuliers, les entreprises et les
+                organisateurs d’événements à Douala avec des solutions fiables en
+                chapiteaux, tentes et bâches, pensées pour répondre rapidement aux
+                besoins du terrain.
+              </p>
+              <p className="section-copy" style={{ marginTop: "1rem" }}>
+                Notre objectif est de vous proposer une solution à la fois solide,
+                bien présentée et simple à mettre en place, avec un accompagnement
+                réactif par appel ou sur WhatsApp pour faciliter votre commande.
+              </p>
+            </AnimatedSection>
+
+            <AnimatedSection className="intro-band-aside" delay={0.08}>
+              <article className="intro-highlight">
+                <strong>Réponse simple</strong>
+                <p>Expliquez votre besoin et nous vous orientons rapidement.</p>
+              </article>
+              <article className="intro-highlight">
+                <strong>Rendu soigné</strong>
+                <p>Des structures propres, stables et adaptées à votre usage.</p>
+              </article>
+              <article className="intro-highlight">
+                <strong>Contact direct</strong>
+                <p>Appelez-nous ou écrivez-nous sur WhatsApp sans attendre.</p>
+              </article>
+            </AnimatedSection>
+          </div>
         </div>
       </section>
 
