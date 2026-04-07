@@ -149,7 +149,7 @@ export default function HomePage() {
           <div className="card-grid grid-3" style={{ marginTop: "2rem" }}>
             {serviceCards.map((service, index) => (
               <AnimatedSection key={service.title} delay={index * 0.08}>
-                <ServiceCard {...service} />
+                <ServiceCard {...service} index={index + 1} />
               </AnimatedSection>
             ))}
           </div>

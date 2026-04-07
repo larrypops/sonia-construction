@@ -11,7 +11,7 @@ export default function CTA({ title, description }: CTAProps) {
     <section className="section-tight">
       <div className="container">
         <div className="cta-banner panel">
-        <div>
+          <div>
             <span className="eyebrow">Devis rapide</span>
             <h2 className="section-title" style={{ maxWidth: "14ch", marginTop: "1rem" }}>
               {title}

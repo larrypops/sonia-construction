@@ -105,7 +105,7 @@ export default function ServicesPage() {
           <div className="card-grid grid-3">
             {serviceCards.map((service, index) => (
               <AnimatedSection key={service.title} delay={index * 0.08}>
-                <ServiceCard {...service} />
+                <ServiceCard {...service} index={index + 1} />
               </AnimatedSection>
             ))}
           </div>

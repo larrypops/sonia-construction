@@ -17,7 +17,7 @@ export default function Gallery({ items }: GalleryProps) {
     <div className="gallery-grid">
       {items.map((item, index) => (
         <AnimatedSection key={item.src} delay={index * 0.08}>
-          <article className="gallery-card panel">
+          <article className={`gallery-card gallery-card--${(index % 5) + 1} panel`}>
             <div className="gallery-image">
               <Image
                 src={item.src}
@@ -25,6 +25,7 @@ export default function Gallery({ items }: GalleryProps) {
                 fill
                 sizes="(max-width: 820px) 100vw, (max-width: 1100px) 50vw, 33vw"
               />
+              <span className="gallery-badge">Projet {String(index + 1).padStart(2, "0")}</span>
             </div>
             <div className="gallery-caption">
               <strong>{item.title}</strong>
