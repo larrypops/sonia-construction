@@ -333,31 +333,11 @@ textarea {
     linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(245, 247, 250, 0.84));
 }
 
-.service-top,
 .service-actions {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}
-
-.service-kicker {
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--secondary);
-}
-
-.service-index {
-  width: 2.55rem;
-  height: 2.55rem;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  background: linear-gradient(135deg, rgba(229, 123, 36, 0.14), rgba(17, 59, 99, 0.08));
-  color: var(--accent-dark);
-  font-weight: 800;
 }
 
 .service-media {
