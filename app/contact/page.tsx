@@ -1,5 +1,6 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import CallButton from "@/components/CallButton";
+import CTA from "@/components/CTA";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { buildMetadata, siteConfig } from "@/lib/site";
 
