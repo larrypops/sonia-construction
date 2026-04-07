@@ -8,7 +8,7 @@ type CallButtonProps = {
 
 export default function CallButton({
   className = "btn btn-secondary",
-  label = "Appeler",
+  label = "Appeler maintenant",
 }: CallButtonProps) {
   return (
     <Link href={siteConfig.phoneHref} className={className}>

@@ -9,7 +9,7 @@ type WhatsAppButtonProps = {
 
 export default function WhatsAppButton({
   className = "btn btn-whatsapp",
-  label = "WhatsApp",
+  label = "Devis WhatsApp",
   floating = false,
 }: WhatsAppButtonProps) {
   return (

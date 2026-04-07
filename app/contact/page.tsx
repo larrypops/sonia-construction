@@ -61,8 +61,8 @@ export default function ContactPage() {
                 </li>
               </ul>
               <div className="button-row" style={{ marginTop: "1.5rem" }}>
-                <CallButton label="Appeler" />
-                <WhatsAppButton label="WhatsApp" />
+                <CallButton label="Appeler maintenant" />
+                <WhatsAppButton label="Écrire sur WhatsApp" />
               </div>
             </article>
           </AnimatedSection>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <button type="button" className="btn btn-primary">
-                  Envoyer
+                  Envoyer votre demande
                 </button>
               </form>
             </div>
@@ -133,7 +133,7 @@ export default function ContactPage() {
                 disponibilité.
               </p>
               <div className="button-row" style={{ marginTop: "1.25rem" }}>
-                <WhatsAppButton label="WhatsApp" />
+                <WhatsAppButton label="Demander un devis WhatsApp" />
               </div>
             </article>
           </AnimatedSection>
@@ -148,7 +148,7 @@ export default function ContactPage() {
                 besoin et obtenir une orientation rapide.
               </p>
               <div className="button-row" style={{ marginTop: "1.25rem" }}>
-                <CallButton label="Appeler" />
+                <CallButton label="Appeler maintenant" />
               </div>
             </article>
           </AnimatedSection>
@@ -158,6 +158,8 @@ export default function ContactPage() {
       <CTA
         title="Parlons de votre projet"
         description="Un appel ou un message WhatsApp suffit pour lancer votre demande et recevoir une réponse rapide."
+        whatsappLabel="Envoyer votre besoin sur WhatsApp"
+        callLabel="Appeler maintenant"
       />
     </>
   );

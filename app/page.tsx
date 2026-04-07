@@ -58,9 +58,10 @@ export default function HomePage() {
             </p>
             <div className="button-row">
               <Link href="/contact" className="btn btn-primary">
-                Devis
+                Demander un devis
               </Link>
-              <WhatsAppButton label="WhatsApp" />
+              <WhatsAppButton label="Demander un devis WhatsApp" />
+              <CallButton label="Appeler maintenant" />
             </div>
             <ul className="pill-list">
               <li>Fabrication sur mesure</li>
@@ -80,7 +81,7 @@ export default function HomePage() {
               />
             </div>
             <div className="hero-badge panel">
-              <strong>Fabrication, vente et location de chapiteaux à Douala</strong>
+              <strong>Demandez votre solution rapidement</strong>
               <p>
                 Décrivez votre besoin en quelques messages et obtenez une réponse
                 rapide avec la solution la plus adaptée.
@@ -144,8 +145,8 @@ export default function HomePage() {
               un résultat propre pour vous aider à avancer sans perdre de temps.
             </p>
             <div className="button-row" style={{ marginTop: "1.5rem" }}>
-              <CallButton label="Appeler" />
-              <WhatsAppButton label="WhatsApp" />
+              <CallButton label="Parler à notre équipe" />
+              <WhatsAppButton label="Poser votre question" />
             </div>
           </AnimatedSection>
 
@@ -182,7 +183,7 @@ export default function HomePage() {
           <AnimatedSection delay={0.18}>
             <div className="button-row" style={{ marginTop: "1.8rem" }}>
               <Link href="/realisations" className="btn btn-secondary">
-                Voir plus
+                Voir toutes les réalisations
               </Link>
             </div>
           </AnimatedSection>
@@ -209,6 +210,8 @@ export default function HomePage() {
       <CTA
         title="Besoin d’un chapiteau, d’une bâche ou d’une installation adaptée ?"
         description="Expliquez-nous votre besoin et nous vous orienterons rapidement vers la bonne solution, par appel ou sur WhatsApp."
+        whatsappLabel="Demander un devis WhatsApp"
+        callLabel="Appeler maintenant"
       />
     </>
   );
